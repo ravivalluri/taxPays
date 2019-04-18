@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background: url("./img/background.png");
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.red {
+  color: #D33D3B;
+}
+
+.dark {
+  color: #495867;
+}
+
+.PresetSetter {
+  background: #3CC47C;
+  padding-top: 2vh;
+  margin-top: 2vh;
+  padding-bottom: 3vh;
+  color: #1E392A;
+  /* position: fixed;
+  top: 0;
+  margin: 0 auto; */
+  width: 100vw;
+  max-width: 700px;
+  /* height: 20vh; */
+  font-size: 1.5vh;
+}
+
+.PresetSetter h1 {
+  font-size: 3vh;
+}
+
+.PresetSetter select {
+  font-size: 3vh;
+}
+
+.sliders {
+  /* position: fixed; */
+  /* top: 14vh;
+  height: 70vh; */
+  width: 100%;
+  padding: 1vh 5vw;
+  background-color: #F7F7FF;
+  margin-bottom: 10vh;
+}
+
+.AdjustmentSlider {
+  padding: 10px;
+  background: #F7F7FF;
+  color: #495867;
+}
+
+.AdjustmentSlider input {
+  transform: rotate(180deg);
+}
+
+.ProgressTracker {
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  background-color: #E9C893;
+  color: #828081;
+  width: 100vw;
+}
+
+.ProgressTracker meter {
+  width: 95%;
+  margin-top: 0;
+  color: #1E392A;
+  background-color: #1E392A;
+}
+
+.ProgressTracker p {
+  color: #D33D3B;
+}
+
+input.slider {
+  width: 100%;
+}
+
+#root {
+  max-width: 700px;
+  margin: 0 auto;
+}
